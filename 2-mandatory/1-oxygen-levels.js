@@ -11,7 +11,9 @@
     Some string methods that might help you here are .replace() and .substring(). 
 */
 
-function safeLevels() {}
+function safeLevels(oxygenlevel) {
+  let oxygenlevel = 
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
