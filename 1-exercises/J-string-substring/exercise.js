@@ -6,7 +6,7 @@
 
 let statement = "I like programming and dogs";
 
-statement = statement.substring();
+statement = statement.substring(18, 0);
 
 console.log(statement);
 
