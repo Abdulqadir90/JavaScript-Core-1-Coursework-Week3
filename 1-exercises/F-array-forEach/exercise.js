@@ -9,6 +9,40 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
+function multiplies(num){
+if (num % 3===0 && num % 5===0){
+  return num = "FizzBuzz";
+} 
+  else if(num % 3===0){
+  return num = "Fizz";
+} 
+  else if(num % 5===0){
+  return num = "Buzz";
+} 
+  else {
+  return num;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* EXPECTED OUTPUT */
 
 /*
