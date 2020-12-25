@@ -15,7 +15,10 @@
   
 */
 
-function colonisers() {}
+function colonisers(instructions) {
+  const rules = instructions.filter( alpha => alpha.substring ("A") && alpha.includes("family"));
+  return rules;
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
