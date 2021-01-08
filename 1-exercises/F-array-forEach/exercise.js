@@ -11,18 +11,20 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 function multiplies(num){
 if (num % 3===0 && num % 5===0){
-  return num = "FizzBuzz";
+  console.log("FizzBuzz");
 } 
   else if(num % 3===0){
-  return num = "Fizz";
+  console.log("Fizz");
 } 
   else if(num % 5===0){
-  return num = "Buzz";
+  console.log("Buzz");
 } 
   else {
-  return num;
+  console.log(num);
+}
 }
 
+arr.forEach(multiplies)
 
 
 

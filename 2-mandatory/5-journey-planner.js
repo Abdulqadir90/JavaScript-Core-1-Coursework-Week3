@@ -83,7 +83,9 @@ function getTransportModes(arr) {
     
   Hint: Use the corresponding array method to decide if an element is member of an array.
 */
-function isAccessibleByTransportMode() {}
+function isAccessibleByTransportMode(arr,str) {
+  return arr.includes(str)
+}
 
 /*
   Implement the function getLocationName that
@@ -94,7 +96,9 @@ function isAccessibleByTransportMode() {}
    - Returns the name of the location
       e.g: "Tower Bridge"
 */
-function getLocationName() {}
+function getLocationName(hey) {
+  return hey[0];
+}
 
 /*
  We arrived at the final method. it won't take long if you use the previously implemented functions wisely.

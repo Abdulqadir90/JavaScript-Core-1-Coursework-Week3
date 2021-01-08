@@ -11,8 +11,8 @@
     Some string methods that might help you here are .replace() and .substring(). 
 */
 
-function safeLevels(oxygenlevel) {
-  let oxygenlevel = 
+function safeLevels(level) {
+  return level.find(index => parseFloat(index)> 19.5 && parseFloat(index)< 23.5);
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */

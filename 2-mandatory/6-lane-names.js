@@ -6,7 +6,13 @@
   HINT: string and array methods that could be helpful (indexOf, filter)
 */
 
-function getLanes() {}
+function getLanes(hey) {
+  let nameOfStreet = hey.filter(function(nameOfLane){
+    return nameOfLane.includes("Lane");
+  });
+    return nameOfStreet;
+  }
+
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

@@ -8,12 +8,8 @@
 
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
-function notFiltered(pairsByIndexRaw){
-  return pairsByIndexRaw =>[2];
-}
 
-
-var pairsByIndex = pairsByIndexRaw.filter(pairsByIndexRaw); // Complete this statement
+var pairsByIndex = pairsByIndexRaw.filter((cool) => Array.isArray(cool) && cool.length>1); // Complete this statement
 
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
